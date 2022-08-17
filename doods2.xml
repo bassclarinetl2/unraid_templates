@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+    doods2:
+        ports:
+            - '8180:8080'
+        image: 'snowzach/doods2:latest'
